@@ -1,0 +1,24 @@
+{
+  "name": "movie-collection",
+  "version": "0.0.1",
+  "private": true,
+  "description": "New Swagger API Project",
+  "keywords": [],
+  "author": "H5DevHoward <h5devhoward@gmail.com>",
+  "license": "MIT",
+  "main": "app.js",
+  "dependencies": {
+    "crypto": "^0.0.3",
+    "express": "^4.12.3",
+    "swagger-express-mw": "^0.1.0"
+  },
+  "devDependencies": {
+    "should": "^7.1.0",
+    "supertest": "^1.0.0"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "swagger project test"
+  },
+  "repository": "https://github.com/H5DevHoward/swagger-restful-api-movie-collection.git"
+}
